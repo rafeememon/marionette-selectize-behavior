@@ -1,0 +1,28 @@
+{
+  "name": "marionette-selectize-behavior",
+  "version": "0.1.0",
+  "description": "A Marionette behavior that synchronizes a selectize.js dropdown menu with a model field and a collection.",
+  "author": {
+    "name": "Rafee Memon",
+    "email": "rafeememon@gmail.com",
+    "url": "https://github.com/rafeememon/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafeememon/marionette-selectize-behavior.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/rafeememon/marionette-selectize-behavior/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/rafeememon/marionette-selectize-behavior",
+  "main": "./lib/selectize-behavior.js",
+  "dependencies": {
+    "backbone.marionette": ">=2.0.0",
+    "selectize": ">=0.11.0"
+  },
+  "files": [
+    "lib",
+    "LICENSE"
+  ]
+}
