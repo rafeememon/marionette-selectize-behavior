@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tests</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div id="fixture"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>
+      mocha.setup('bdd');
+      window.expect = chai.expect;
+    </script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <script src="node_modules/backbone.marionette/lib/backbone.marionette.js"></script>
+    <script src="node_modules/microplugin/src/microplugin.js"></script>
+    <script src="node_modules/sifter/lib/sifter.js"></script>
+    <script src="node_modules/selectize/dist/js/selectize.js"></script>
+    <script src="lib/selectize-behavior.js"></script>
+    <script src="test/selectize-behavior-test.js"></script>
+    <script>
+      if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+      } else {
+        mocha.run();
+      }
+    </script>
+  </body>
+</html>
