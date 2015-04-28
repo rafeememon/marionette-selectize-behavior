@@ -11,11 +11,14 @@
     "type": "git",
     "url": "https://github.com/rafeememon/marionette-selectize-behavior.git"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/rafeememon/marionette-selectize-behavior/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "homepage": "https://github.com/rafeememon/marionette-selectize-behavior",
+  "keywords": [
+    "backbone",
+    "marionette",
+    "behavior",
+    "selectize"
+  ],
   "scripts": {
     "test": "mocha-phantomjs SpecRunner.html"
   },
@@ -34,9 +37,5 @@
     "phantomjs": "1.9.16",
     "sifter": "0.4.1",
     "underscore": "1.6.0"
-  },
-  "files": [
-    "lib",
-    "LICENSE"
-  ]
+  }
 }
