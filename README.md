@@ -16,7 +16,9 @@ See Marionette's [documentation](http://marionettejs.com/docs/marionette.behavio
 - **selector**: (required) A jQuery selector to a `<select>` element within the view
 - **modelField**: (required) The model attribute storing the selected item's ID
 - **collection**: (required) The collection containing the possible selection items. This can be specified as the collection itself, the name of the field on the view containing the collection, or a function returning the collection. Selection state is represented with the IDs of the collection's items.
-- **textAttribute**: (required) The attribute of collection models representing the item's display text
+- **textAttribute**: (required) The attribute of collection models representing the item's display text. This field will also be used for searching and sorting.
+- **renderItem**: (optional) A callback to render the selected item. The function takes the item's data as the first parameter and an HTML escape function as the second parameter, and it returns the HTML for the selected item.
+- **renderOption**: (optional) A callback to render the items in the dropdown menu. The function takes the item's data as the first parameter and an HTML escape function as the second parameter, and it returns the HTML for the item.
 
 ## Compatibility
 
