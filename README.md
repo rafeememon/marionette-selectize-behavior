@@ -1,7 +1,8 @@
 marionette-selectize-behavior
 =============================
 
-[![Build Status](https://travis-ci.org/rafeememon/marionette-selectize-behavior.svg)](https://travis-ci.org/rafeememon/marionette-selectize-behavior)
+[![NPM version](https://img.shields.io/npm/v/marionette-selectize-behavior.svg)](https://www.npmjs.org/package/marionette-selectize-behavior)
+[![Build Status](https://img.shields.io/travis/rafeememon/marionette-selectize-behavior.svg)](https://travis-ci.org/rafeememon/marionette-selectize-behavior)
 
 ## Description
 
