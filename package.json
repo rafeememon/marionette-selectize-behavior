@@ -1,6 +1,6 @@
 {
   "name": "marionette-selectize-behavior",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Marionette behavior that synchronizes a selectize.js dropdown menu with a model field and a collection.",
   "author": {
     "name": "Rafee Memon",
